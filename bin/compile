@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-gem install geminabox
+gem install geminabox --no-document
 
 
 # Work in the build directory
