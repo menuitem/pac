@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# bin/release <build-dir>
-
-# Serve some gems up
-cat <<EOF
----
-default_process_types:
-  web: gem server -d ./pacific -p \$PORT --no-daemon
-EOF

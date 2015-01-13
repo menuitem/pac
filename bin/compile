@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-# Work in the build directory
-cd $1/pacific
+gem install geminabox
 
-gem build pacific.gemspec
-gem install pacific-0.0.1.gem
+
+# Work in the build directory
+# cd $1/pacific
+
+# gem build pacific.gemspec >> ../pacific-0.0.1.gem
+# gem install ../pacific-0.0.1.gem
