@@ -6,7 +6,7 @@ cd $1/pacific
 
 # rake install
 
-gem build pacific.gemspec
+gem install pacific-0.0.1.gem
 
 # Install all the gems in this folder
 # find . \

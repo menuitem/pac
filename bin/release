@@ -5,5 +5,5 @@
 cat <<EOF
 ---
 default_process_types:
-  web: gem server -p \$PORT --no-daemon
+  web: gem server -d ./pacific -p \$PORT --no-daemon
 EOF
