@@ -4,7 +4,7 @@
 # Work in the build directory
 cd $1/pacific
 
-rake install
+# rake install
 
 gem build pacific.gemspec
 
