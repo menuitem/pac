@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# bin/compile <build-dir> <cache-dir>
+
+# Work in the build directory
+cd $1
+
+# Install all the gems in this folder
+find . \
+    -type f \
+    -name '*.gem' \
+    -mindepth 1 \
+    -maxdepth 1 \
+    -exec gem install '{}' \
+    --install-dir .\
+    --force ';'
